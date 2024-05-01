@@ -1,4 +1,30 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
-* This file contains the CSS for index.html
-*/
+h1 {
+  border: 4px solid black;
+  padding: 10px;
+  margin-left: 20px;
+  width: fit-content;
+  background-color: #9fcff9;
+  color: #0c0c73;
+  font-weight: bold;
+}
+
+body {
+  background-color: #537d9d;
+}
+p {
+  margin-left: 20px;
+  color: #0c0c73;
+  font-weight: bold;
+}
+button {
+  margin-left: 20px;
+}
+input {
+  margin-left: 20px;
+}
+
+div {
+  margin: 20px;
+  color: #0c0c73;
+  font-weight: bold;
+}

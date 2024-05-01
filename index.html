@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Title</title>
+    <title>Age movie rating</title>
+    <link rel="stylesheet" href="./css/style.css"/>
   </head>
   <body>
-    <p>Paragraph</p>
+    <script src="js/script.js"></script>
+    <h1>What type of movies can you see based on your age</h1>
+    <p>Enter age below</p>
+    <br>
+    <input type="number" id="usertemp" placeholder="Age" min="0" max="120" step="1"><br><br>
+    <button id="button" onclick="MovieRater()">Check</button><br>
+    <div id="result"></div>
   </body>
 </html>
